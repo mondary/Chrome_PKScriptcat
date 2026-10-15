@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         PK CSS - PK_Gmail-NoLeftMenu
 // @namespace    https://local.scriptcat.sync
-// @version      1.0.0
-// @description  Auto-generated CSS injector for PK_Gmail-NoLeftMenu.css
+// @version      2026.10.15
+// @description  CSS Gmail : Gmail No left menu (source: gmail.css, synchro 2026.10.15)
 // @match        https://mail.google.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
 (function () {
   'use strict';
-  const css = "\n/* Hide icons consistently across all Gmail sections */\n.aeN,\n.ain .CJ {\n    display: none !important; /* ensures icons stay hidden in all sections */\n}\n";
+  const css = ".aeN,\n.ain .CJ {\n    display: none !important;\n}";
   if (typeof GM_addStyle === 'function') {
     GM_addStyle(css);
     return;

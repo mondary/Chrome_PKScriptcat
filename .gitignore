@@ -24,3 +24,8 @@ openspec/
 /scripts_server.js
 /extensions/vscode/src/*.log
 /extensions/vscode/src/scripts_server.js
+
+# symlinks locaux vers projets voisins (non versionnés)
+/vendors/
+
+/archives/

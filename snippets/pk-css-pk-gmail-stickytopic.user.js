@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         PK CSS - PK_Gmail-StickyTopic
 // @namespace    https://local.scriptcat.sync
-// @version      1.0.0
-// @description  Auto-generated CSS injector for PK_Gmail-StickyTopic.css
+// @version      2026.10.15
+// @description  CSS Gmail : Gmail Sticky Topic (source: gmail.css, synchro 2026.10.15)
 // @match        https://mail.google.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
 (function () {
   'use strict';
-  const css = "/* Rendre le premier div avec la classe .nH sticky sans cacher les menus */\n.iY.a98.nH > div.nH:nth-of-type(1) {\n    position: sticky !important; /* Comportement sticky forcÃ© */\n    top: 0 !important;           /* CollÃ© en haut du conteneur parent */\n    z-index: 1 !important;      /* PrioritÃ© infÃ©rieure Ã  .aVN */\n    background-color: white;     /* Ãvite la transparence */\n}\n";
+  const css = ".iY.a98.nH > div.nH:nth-of-type(1) {\n    position: sticky !important; /* Comportement sticky forcé */\n    top: 0 !important;           /* Collé en haut du conteneur parent */\n    z-index: 1 !important;      /* Priorité inférieure à .aVN */\n    background-color: white;     /* Évite la transparence */\n}";
   if (typeof GM_addStyle === 'function') {
     GM_addStyle(css);
     return;

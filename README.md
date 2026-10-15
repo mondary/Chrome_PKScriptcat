@@ -201,3 +201,4 @@ code --install-extension Cmondary.vs-pkscriptcat-snippets
 - 🇬🇧 EN README : [README_en.md](README_en.md)
 - 🔗 ScriptCat Extension : [scriptcat.org](https://scriptcat.org/)
 - 📚 Documentation VS Code : [code.visualstudio.com](https://code.visualstudio.com/)
+- ☕ Soutenir : [ko-fi.com/pouark](https://ko-fi.com/pouark)
