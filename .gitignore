@@ -19,6 +19,9 @@ temp/
 
 openspec/
 
+# Réglages locaux d'outils (jamais versionnés)
+.claude/settings.local.json
+
 # Local helper/debug files
 /server.log
 /scripts_server.js

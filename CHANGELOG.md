@@ -4,6 +4,18 @@ Historique des versions du dépôt de snippets.
 
 ## Releases
 
+### [2026.11.1] - 2026-11-23
+
+#### Added
+- Pont de synchronisation VS Code dans le service worker ScriptCat : classe `VSCodeSync` (WebSocket `ws://localhost:8642`, message `script_list`, mise à jour et suppression de scripts) instanciée au démarrage du worker.
+
+#### Changed
+- `package-lock.json` aligné sur les workspaces `extensions/vscode/src` et `extensions/chrome/src` et sur le nom `VS_pkscriptcat_snippets`.
+- Les réglages locaux `.claude/settings.local.json` sortent du suivi git et sont désormais ignorés.
+
+#### Fixed
+- `service_worker_sync.js` : port WebSocket corrigé de 8643 vers 8642 (valeur documentée dans `README_SYNC.md`) et prise en charge du message `script_list` reçu de VS Code.
+
 ### [2026.10.1] - 2026-10-15
 
 #### Changed
